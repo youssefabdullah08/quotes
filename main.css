@@ -1,0 +1,41 @@
+section{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: 900;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+p{
+    padding-block: 1rem;
+}
+section button{
+    padding: 20px;
+    padding-inline: 50px;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 30px;
+    transition: all .3s;
+}
+section button:hover{
+    background-color: green;
+    
+}
+
+
+@media screen and( maxwidth:569px){
+p{
+    font-size: 1rem;
+}
+h1{
+    font-weight: 300;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+    
+}
